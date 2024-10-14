@@ -40,23 +40,12 @@ require __DIR__.'\Products.php';
                             <?php echo $Bacchetta->category ?>
                         </span>
                     </div>
-                </div>
-
-                <div class="d-flex justify-content-around">
                     <div>
                         <div class="fw-bolder">
-                            Materiali:
+                           Brand:
                         </div>
                         <span>
-                            <?php echo $CuteBed->materials?>
-                        </span>
-                    </div>
-                    <div>
-                        <div class="fw-bolder">
-                            Misura in cm:
-                        </div>
-                        <span>
-                            <?php echo $CuteBed->size ?>
+                            <?php echo $Bacchetta->brand ?>
                         </span>
                     </div>
                 </div>
